@@ -57,6 +57,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2032,
+          "via_gap": 0.2032,
+          "width": 0.2672
         }
       ],
       "drc_exclusions": [],
@@ -128,9 +133,9 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -142,8 +147,8 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.2,
-        "min_via_annular_width": 0.05,
-        "min_via_diameter": 0.4,
+        "min_via_annular_width": 0.045,
+        "min_via_diameter": 0.3,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.005,
@@ -233,7 +238,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.45,
+          "diameter": 0.5,
           "drill": 0.3
         }
       ],
@@ -500,16 +505,53 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1524,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.2672,
+        "name": "DP_90R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2672,
+        "via_diameter": 0.5,
+        "via_drill": 0.3
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/ESP32-S3/HUB_D+": [
+        "DP_90R"
+      ],
+      "/ESP32-S3/HUB_D-": [
+        "DP_90R"
+      ],
+      "/ESP32-S3/UART_D+": [
+        "DP_90R"
+      ],
+      "/ESP32-S3/UART_D-": [
+        "DP_90R"
+      ],
+      "/ESP32-S3/USB_D+": [
+        "DP_90R"
+      ],
+      "/ESP32-S3/USB_D-": [
+        "DP_90R"
+      ],
+      "/ESP_USB+": [
+        "DP_90R"
+      ],
+      "/ESP_USB-": [
+        "DP_90R"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
