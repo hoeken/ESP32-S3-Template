@@ -548,7 +548,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ESP32-S3-Breakout.kicad_pro",
+    "filename": "ESP32-S3-Template.kicad_pro",
     "version": 3
   },
   "net_settings": {

@@ -1454,7 +1454,7 @@
 		)
 		(uuid "a5777c7c-251d-4331-b319-7781469112fc")
 	)
-	(text "OCTAL"
+	(text "PSRAM"
 		(exclude_from_sim no)
 		(at 113.792 125.73 90)
 		(effects
@@ -3598,7 +3598,7 @@
 		(lib_id "Graphic:Logo_Open_Hardware_Small")
 		(at 166.37 190.5 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -3641,15 +3641,6 @@
 			)
 		)
 		(property "Description" "Open Hardware logo, small"
-			(at 166.37 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 166.37 190.5 0)
 			(effects
 				(font
@@ -4592,7 +4583,7 @@
 			)
 		)
 		(instances
-			(project "ESP32-S3-Breakout"
+			(project "ESP32-S3-Template"
 				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341"
 					(page "2")
 				)
