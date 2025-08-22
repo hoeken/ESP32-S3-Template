@@ -5575,7 +5575,7 @@
 	)
 	(text "RTC CLOCK"
 		(exclude_from_sim no)
-		(at 175.26 89.408 0)
+		(at 166.878 89.154 0)
 		(effects
 			(font
 				(size 2 2)
