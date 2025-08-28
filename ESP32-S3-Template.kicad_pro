@@ -253,11 +253,11 @@
       ],
       "track_widths": [
         0.0,
-        0.2032,
-        0.254,
-        0.3048,
-        0.4064,
-        0.508
+        0.2,
+        0.25,
+        0.3,
+        0.4,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -577,11 +577,20 @@
         "diff_pair_width": 0.2672,
         "name": "DP_90R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2672,
         "via_diameter": 0.5,
         "via_drill": 0.3
+      },
+      {
+        "name": "VBUS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.6,
+        "via_drill": 0.4
       }
     ],
     "meta": {
@@ -606,6 +615,9 @@
       ],
       "/ESP32-S3/USB_D-": [
         "DP_90R"
+      ],
+      "/ESP32-S3/VBUS": [
+        "VBUS"
       ],
       "/ESP_USB+": [
         "DP_90R"
