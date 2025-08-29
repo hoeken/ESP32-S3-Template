@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "3bba1511-25ec-43a9-bde1-3bab06c08341")
 	(paper "A4")
+	(title_block
+		(title "https://github.com/hoeken/ESP32-S3-Template")
+		(date "2025-08-28")
+		(rev "A")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x22"
 			(pin_names

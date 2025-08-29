@@ -320,6 +320,10 @@
         ""
       ],
       [
+        "label_dangling|787400|1066800|12f3c435-d7b5-42a7-876e-8f063c35d565|00000000-0000-0000-0000-000000000000|/3bba1511-25ec-43a9-bde1-3bab06c08341||",
+        ""
+      ],
+      [
         "label_dangling|787400|1168400|12f3c435-d7b5-42a7-876e-8f063c35d565|00000000-0000-0000-0000-000000000000|/3bba1511-25ec-43a9-bde1-3bab06c08341||",
         ""
       ]
@@ -687,7 +691,7 @@
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
