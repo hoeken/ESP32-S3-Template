@@ -98,14 +98,6 @@
           ""
         ],
         [
-          "silk_edge_clearance|77850000|72580000|141bd9f2-e79a-42b5-9172-8c4f99f4def7|7b49bb39-cc3e-4772-b350-77f3ffe5e000",
-          ""
-        ],
-        [
-          "silk_edge_clearance|96250000|72580000|141bd9f2-e79a-42b5-9172-8c4f99f4def7|9fd3e9e0-ca69-4c46-a7da-404d149cdf1e",
-          ""
-        ],
-        [
           "silk_edge_clearance|99700000|128910000|141bd9f2-e79a-42b5-9172-8c4f99f4def7|d02afeec-cb1d-4ecc-9458-5abce5dc877e",
           ""
         ],
@@ -601,35 +593,7 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/ESP32-S3/HUB_D+": [
-        "DP_90R"
-      ],
-      "/ESP32-S3/HUB_D-": [
-        "DP_90R"
-      ],
-      "/ESP32-S3/UART_D+": [
-        "DP_90R"
-      ],
-      "/ESP32-S3/UART_D-": [
-        "DP_90R"
-      ],
-      "/ESP32-S3/USB_D+": [
-        "DP_90R"
-      ],
-      "/ESP32-S3/USB_D-": [
-        "DP_90R"
-      ],
-      "/ESP32-S3/VBUS": [
-        "VBUS"
-      ],
-      "/ESP_USB+": [
-        "DP_90R"
-      ],
-      "/ESP_USB-": [
-        "DP_90R"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {

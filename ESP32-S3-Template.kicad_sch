@@ -3313,7 +3313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b0b2e1b-2a87-4771-9a90-f4b902dd5e5e")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR06"
 			(at 179.07 67.31 0)
 			(effects
 				(font
@@ -3363,7 +3363,7 @@
 		(instances
 			(project "ESP32-S3-Breakout"
 				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341"
-					(reference "#PWR013")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3379,7 +3379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32343ee9-a063-4287-a53e-e2a35d199f6f")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 194.31 91.4399 0)
 			(effects
 				(font
@@ -3494,7 +3494,7 @@
 		(instances
 			(project ""
 				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3510,7 +3510,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3fb34fab-830d-4312-9cf3-2225052e7c42")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR07"
 			(at 232.41 128.27 0)
 			(effects
 				(font
@@ -3560,7 +3560,7 @@
 		(instances
 			(project "ESP32-S3-Breakout"
 				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341"
-					(reference "#PWR022")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3576,7 +3576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "549f8347-2e10-42b4-a444-9d25fa548777")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR04"
 			(at 173.99 118.11 0)
 			(effects
 				(font
@@ -3626,7 +3626,7 @@
 		(instances
 			(project "ESP32-S3-Breakout"
 				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341"
-					(reference "#PWR020")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3641,7 +3641,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5947e6a3-2322-4306-ab81-406e95bd5ac5")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR05"
 			(at 173.99 128.27 0)
 			(effects
 				(font
@@ -3691,7 +3691,7 @@
 		(instances
 			(project "ESP32-S3-Breakout"
 				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341"
-					(reference "#PWR021")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3770,7 +3770,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5fab93ea-0d21-4db7-aec3-4f5b55fca7ee")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR08"
 			(at 233.68 74.93 0)
 			(effects
 				(font
@@ -3820,7 +3820,7 @@
 		(instances
 			(project "ESP32-S3-Breakout"
 				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341"
-					(reference "#PWR023")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3967,7 +3967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e351af2-0aa1-412c-9b6e-201ddde34a4c")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 130.81 64.77 0)
 			(effects
 				(font
@@ -4017,7 +4017,7 @@
 		(instances
 			(project ""
 				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4032,7 +4032,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0bf1391-d056-4892-8007-0d2d096d7e97")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 130.81 85.09 0)
 			(effects
 				(font
@@ -4082,7 +4082,7 @@
 		(instances
 			(project ""
 				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4098,7 +4098,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3849c50-5035-4e59-b5eb-46d0c4d3f784")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 212.09 91.4399 0)
 			(effects
 				(font
@@ -4213,7 +4213,7 @@
 		(instances
 			(project "ESP32-S3-Breakout"
 				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
